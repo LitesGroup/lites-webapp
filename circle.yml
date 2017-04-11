@@ -1,0 +1,17 @@
+machine:
+    services:
+        - docker
+    java:
+        version: oraclejdk8
+    node:
+        version: 4.5.0
+dependencies:
+    cache_directories:
+        - ~/.gradle
+    override:
+        - java -version
+test:
+    override:
+        - ./gradlew clean
+        - ./gradlew test --no-daemon
+        - ./gradlew bootRepackage -Pprod -x test
