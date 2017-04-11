@@ -1,4 +1,4 @@
-# LitesWebApp
+# LitesWebApp [![CircleCI](https://circleci.com/gh/LitesGroup/lites-webapp.svg?style=svg)](https://circleci.com/gh/LitesGroup/lites-webapp)
 This application was generated using JHipster 4.2.0, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.2.0](https://jhipster.github.io/documentation-archive/v4.2.0).
 
 This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
